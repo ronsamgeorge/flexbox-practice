@@ -31,7 +31,7 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 8px;
 }
 
 ul{
@@ -40,7 +40,9 @@ ul{
 
 .left-links, .right-links{
   display: flex;
-  gap :16px;
+  gap : 24px;
+  padding : 8px;
+  margin : 0;
 }
 
 .content {
@@ -55,6 +57,11 @@ ul{
   background-color: #eeeeee;
 }
 
+
+a {
+  text-decoration: none;
+  color: grey;
+}
 
 
 
