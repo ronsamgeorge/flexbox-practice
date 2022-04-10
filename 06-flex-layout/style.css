@@ -42,9 +42,20 @@ ul{
   gap :16px;
 }
 
-.content {
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.footer{
+  display : flex;
+}
+
+.footer > *{
+  flex : 1 1 auto;
+}
+
+
+
